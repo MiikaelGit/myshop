@@ -31,14 +31,7 @@ export const Content: React.FC = () => {
       {products.map((product) => {
         return (
           <ProductCard
-            key={product.id}
-            image={product.image}
-            id={product.id}
-            title={product.title}
-            price={product.price}
-            description={product.description}
-            category={product.category}
-            rating={product.rating}
+            product={product}
           />
         );
       })}

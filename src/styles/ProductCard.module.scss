@@ -44,10 +44,18 @@
   justify-content: center;
   width: 100%;
 }
-.cardButton {
-  background-color: blue;
-  color: #fff;
+
+.addButton{
   width: 100%;
   display: flex;
   justify-content: center;
+  background-color: blue;
+  color: #fff;
+}
+
+.removeButton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: violet;
 }

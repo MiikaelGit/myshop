@@ -1,17 +1,41 @@
 .cart{
     color: black;
     height: 100vh;
-    width: 350px;
+    width: 400px;
     background-color: white;
     padding: 2rem;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    overflow-y: auto;
 }
 
 .cartHeader {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 1.5rem;
     button{
         background-color: red;
         color: white;
     }
+}
+
+.productsList{
+    list-style: none;
+    padding: 1.5rem 0;
+}
+
+.productItem{
+    margin-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: .1rem solid #a2a2a2;
+    border-radius: .3rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+.buttonRemove {
+    background-color: red;
+    color: #FFF;
+    display: inline;
 }
