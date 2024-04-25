@@ -59,3 +59,10 @@
   right: -10px;
   top: -10px;
 }
+
+@media (max-width: 1024px) {
+  .header{
+    padding: 0 1rem;
+    font-size: 80%;
+  }
+}
