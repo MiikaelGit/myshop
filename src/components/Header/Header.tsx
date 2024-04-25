@@ -3,7 +3,7 @@ import styles from "../../styles/Header.module.scss";
 import { useState } from "react";
 import { Cart } from "../Cart/Cart";
 import { useDispatch, useSelector } from "react-redux";
-import { RootReducer, rootReducer } from "@/redux/root-reducer";
+import { RootReducer } from "@/redux/root-reducer";
 import { login, logout } from "@/redux/User/user-slice";
 
 export const Header: React.FC = () => {
