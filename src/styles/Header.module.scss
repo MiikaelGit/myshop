@@ -1,0 +1,61 @@
+.header {
+  background-color: navy;
+  color: #fff;
+  height: 4.5rem;
+}
+.headerContainer {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.buttonContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.buttonLogin {
+  background-color: green;
+  color: white;
+}
+
+.buttonLogout {
+  background-color: red;
+  color: white;
+}
+
+.buttonCart {
+  background-color: violet;
+  position: relative;
+}
+
+.showCart {
+  position: fixed;
+  top: 0;
+  right: 0;
+  transition: right .5s;
+}
+
+.hideCart {
+  position: fixed;
+  top: 0;
+  right: -400px;
+  transition: right .5s;
+}
+
+.cartCounter{
+  box-sizing: content-box;
+  background-color: red;
+  color: #fff;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: -10px;
+  top: -10px;
+}

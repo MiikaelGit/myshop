@@ -1,0 +1,8 @@
+.content {
+  max-width: 1240px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+  margin: 4rem auto;
+  justify-content: center;
+  gap: 1rem;
+}
